@@ -1,0 +1,189 @@
+/*
+ @This file contains the Custom Style 
+ @OCCS version 1.0
+ @laravel version 5.3
+ @author Olivine Limited (www.olivineltd.com)
+ @last-modified 29/1/17
+*/
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    padding-right: 0px !important;
+    font-family:kalpurushregular,Arial,Vrinda,Helvetica,sans-serif;
+    font-size: 13px;
+
+}
+.content-wrapper{
+    background-color: #ECF0F5 !important;
+}
+
+.errorInput, .errorInput:focus {
+    border-color: #f52d2d !important;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 10px rgb(255, 125, 137);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 10px rgb(255, 125, 137);
+}
+.removeElementIcon {
+    color: red;
+    width: 20px;
+    height: 20px;
+    border: 2px solid red;
+    text-align: center;
+    line-height: 16px;
+    border-radius: 50%;
+    margin-top: 35px;
+}
+.removeHeirIcon {
+    margin-top: 0;
+    position: absolute;
+    right: 7px;
+    top: -5px;
+}
+.RowDiv {
+    border: 1px solid #dddddd;
+    padding: 15px 0 0;
+    margin-bottom: 15px;
+}
+
+fieldset 
+{
+    border: 1px solid #ddd !important;
+    margin: 0;
+    xmin-width: 0;
+    padding: 10px;       
+    position: relative;
+    border-radius:4px;
+    background-color:#f5f5f5;
+    padding-left:10px!important;
+}	
+
+legend
+{
+    font-size:14px;
+    font-weight:bold;
+    margin-bottom: 0px; 
+    width: 100%; 
+    border: 1px solid #DDDDDD;
+    padding: 5px 5px 5px 10px; 
+    background-color: #537171;
+/*    background-color: #9CB770;*/
+    color: white;
+}
+.errorFieldset {
+    border-color: red !important;
+}
+
+input[type='file'].form-control {
+    height: auto;
+}
+.modal, .modal-open {
+    overflow: auto;
+}
+.btn-default{
+    margin-bottom: 3px !important;
+    border: 1px solid grey !important;
+}
+.btn-group-sm > .btn, .btn-sm{
+    padding: 3px 6px !important;
+}
+.label-default{
+    background-color: #1e4770 !important;
+    border: 1px solid #1e4770 !important;
+    color: #fff;
+}
+#mark{
+    color: red;
+}
+.modal-header { 
+    padding: 15px; 
+    background-color: #537171; 
+    border-bottom: 1px solid #e5e5e5; 
+    color: #FFF; 
+}
+.modal-body {
+    max-height: calc(100vh - 210px);
+    overflow-y: auto;
+}
+.bootstrap-tagsinput{
+    width:100%;
+}
+#show_image{
+    height: 100px;
+    width: auto;
+}
+#actionStyle{
+    font-size: 12px;
+}
+
+/*
+Search Box
+*/
+.search-form .form-group {
+    float: right !important;
+    transition: all 0.35s, border-radius 0s;
+    width: 32px;
+    height: 32px;
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+}
+.search-form .form-group input.form-control {
+    padding-right: 20px;
+    border: 0 none;
+    background: transparent;
+    box-shadow: none;
+    display:block;
+}
+.search-form .form-group input.form-control::-webkit-input-placeholder {
+    display: none;
+}
+.search-form .form-group input.form-control:-moz-placeholder {
+    /* Firefox 18- */
+    display: none;
+}
+.search-form .form-group input.form-control::-moz-placeholder {
+    /* Firefox 19+ */
+    display: none;
+}
+.search-form .form-group input.form-control:-ms-input-placeholder {
+    display: none;
+}
+.search-form .form-group:hover,
+.search-form .form-group.hover {
+    width: 100%;
+    border-radius: 4px 25px 25px 4px;
+}
+.search-form .form-group span.form-control-feedback {
+    position: absolute;
+    top: -1px;
+    right: -2px;
+    z-index: 2;
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    color: #3596e0;
+    left: initial;
+    font-size: 14px;
+}
+@media screen and (max-width: 480px) {
+    .changePassword, .changeProfile {
+        float: none !important;
+        display: block;
+    }
+    .changePassword {
+        margin-bottom: 5px;
+    }
+}
+.footer-bottom{
+    background-color: #EFEFEF;
+    min-height: 40px;
+    /*width: 100%;*/
+    bottom: 0;
+    position: relative;
+    box-shadow: 3px 5px 15px #888888;
+    padding: 5px 0xp;
+}
